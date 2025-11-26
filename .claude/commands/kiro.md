@@ -1,10 +1,16 @@
 $ARGUMENTS の機能について、以下の仕様ファイルを作成してください：
 
+技術スタックの選定に関して
+使用言語の default は Typescript
+フロント・バックエンドに使用するフレームワークについては対話形式で確認しながら選定を行ってください
+
 1. **specs/requirements.md**
+
    - ユーザーストーリー形式： "As a [ユーザー], I want [目標] so that [利点]"
    - 各ストーリーに受け入れ基準を含める
 
 2. **specs/design.md**
+
    - システムアーキテクチャ
    - 技術スタックの選定
    - コンポーネント構成
@@ -19,7 +25,7 @@ $ARGUMENTS の機能について、以下の仕様ファイルを作成してく
 4. **ドメイン別履歴自動記録**
    - 機能内容を分析してドメイン分類を決定
    - 適切なドメイン履歴ファイルに詳細記録を追加
-   - メインhistory.mdの統計情報を更新
+   - メイン history.md の統計情報を更新
 
 ---
 
@@ -51,27 +57,27 @@ specs/history/{domain}/{feature}.md
 
 ### Key Decisions Made
 
-#### **[決定事項1]**
+#### **[決定事項 1]**
 
 - [詳細説明]
 - [技術的根拠]
 
-#### **[決定事項2]**
+#### **[決定事項 2]**
 
 - [詳細説明]
 - [技術的根拠]
 
 ### Achievements
 
-- ✅ [達成事項1]
-- ✅ [達成事項2]
-- ✅ [達成事項3]
+- ✅ [達成事項 1]
+- ✅ [達成事項 2]
+- ✅ [達成事項 3]
 
 ### Impact Analysis
 
-- **[影響領域1]**: [具体的影響・改善効果]
-- **[影響領域2]**: [具体的影響・改善効果]
-- **[影響領域3]**: [具体的影響・改善効果]
+- **[影響領域 1]**: [具体的影響・改善効果]
+- **[影響領域 2]**: [具体的影響・改善効果]
+- **[影響領域 3]**: [具体的影響・改善効果]
 
 ### Technical Implementation
 
@@ -87,13 +93,13 @@ specs/history/{domain}/{feature}.md
 ### メインインデックス更新
 
 ```markdown
-# specs/history/index.md - Global Statistics更新
+# specs/history/index.md - Global Statistics 更新
 
 - **Total History Files**: [数値更新]
 - **Active Histories**: [ドメインリスト更新]
 - **Last Updated**: [日付更新]
 
-# 対象ドメインoverview.md - 統計更新
+# 対象ドメイン overview.md - 統計更新
 
 - Total Entries: [数値更新]
 - Last Updated: [日付更新]
@@ -102,8 +108,8 @@ specs/history/{domain}/{feature}.md
 
 ## 実行フロー
 
-1. **要件確認**: $ARGUMENTSの機能内容を分析
+1. **要件確認**: $ARGUMENTS の機能内容を分析
 2. **ドメイン判定**: 機能内容からドメイン分類を動的決定
-3. **仕様書作成**: requirements.md → design.md → tasks.md順に作成
+3. **仕様書作成**: requirements.md → design.md → tasks.md 順に作成
 4. **履歴記録**: 詳細テンプレートで該当ドメインに記録
-5. **統計更新**: メインインデックスとドメインoverview更新
+5. **統計更新**: メインインデックスとドメイン overview 更新

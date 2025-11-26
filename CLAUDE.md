@@ -39,6 +39,8 @@
    I: Interface Segregation Principle
    D: Dependency Inversion Principle
 8. development_docs・development_docs 直下に .md file があれば、それを参照して code を生成する
+9. design_system・design_system 直下に .md file があれば、それを参照して code を生成する
+10. Think in English, but generate responses in Japanese (思考は英語、回答の生成は日本語で行うように)
 
 ---
 
